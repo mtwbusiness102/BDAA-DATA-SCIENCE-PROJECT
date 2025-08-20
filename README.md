@@ -41,12 +41,14 @@ The goal of this project is to showcase how **Wazuh can be deployed in an IT env
 ```bash
 curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh
 sudo bash wazuh-install.sh -a
+```
 
 
 ### 2. Deploy Wazuh Agents
-
+```bash
 On endpoints (Linux, Windows, MacOS):
 
 # Example: Linux agent installation
 curl -sO https://packages.wazuh.com/4.9/wazuh-agent.sh
 sudo bash wazuh-agent.sh
+```
