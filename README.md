@@ -52,3 +52,10 @@ On endpoints (Linux, Windows, MacOS):
 curl -sO https://packages.wazuh.com/4.9/wazuh-agent.sh
 sudo bash wazuh-agent.sh
 ```
+
+### 3. Configure Elastic Stack (Optional)
+
+Wazuh integrates with Elastic Stack (ELK) for visualization:
+- Elasticsearch for log storage
+- Kibana for dashboards
+- Wazuh plugin for Kibana
