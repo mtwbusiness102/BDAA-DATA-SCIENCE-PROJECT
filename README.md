@@ -35,10 +35,13 @@ The goal of this project is to showcase how **Wazuh can be deployed in an IT env
 
 ## 📦 Installation & Setup
 
-### 1. Install Wazuh Manager
 
+
+### 1. Install Wazuh Manager
+```bash
 curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh
 sudo bash wazuh-install.sh -a
+
 
 ### 2. Deploy Wazuh Agents
 
