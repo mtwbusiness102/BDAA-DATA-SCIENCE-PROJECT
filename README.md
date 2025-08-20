@@ -59,3 +59,30 @@ Wazuh integrates with Elastic Stack (ELK) for visualization:
 - Elasticsearch for log storage
 - Kibana for dashboards
 - Wazuh plugin for Kibana
+
+📊 Monitoring & Alerts
+- Once deployed, Wazuh provides:
+- Real-time alerts for brute-force attacks, port scans, or malware execution
+- Dashboards showing system health, vulnerabilities, and compliance posture
+- File integrity monitoring (detects unauthorized file changes)
+
+
+```bash
+wazuh-siem-project/
+│-- docs/              # Documentation
+│-- scripts/           # Setup and config scripts
+│-- configs/           # Wazuh configuration files
+│-- README.md          # Project documentation
+```
+
+
+🎯 Benefits for IT Projects
+- 🔍 Centralized Security Monitoring – All logs in one place
+- 📈 Scalability – Works for both small labs and enterprise-scale deployments
+- 💰 Cost-Effective – Open-source alternative to expensive SIEM solutions
+- 📜 Compliance – Simplifies audits with built-in compliance modules
+- ⚡ Incident Response – Provides actionable alerts and integrations with tools like Splunk, Slack, or SIEM pipelines
+
+
+📜 License
+- This project follows the MIT License.
