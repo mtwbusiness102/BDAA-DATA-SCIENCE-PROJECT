@@ -14,5 +14,6 @@ A short description of your project.
 ## 📦 Installation
 ```bash
 git clone https://github.com/yourusername/project.git
+
 cd project
 # install dependencies
